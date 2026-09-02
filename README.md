@@ -47,7 +47,7 @@ Create **10 virtual sensors** in Domoticz via **Setup -> Hardware -> Dummy -> Cr
    ```
 
 ### Connecting the Selector Switch in Domoticz
-Edit your Selector Switch (IDX 5706) and configure the **Selector Actions** using the following Linux shell wrappers to ensure clean background execution:
+Edit your Selector Switch and configure the **Selector Actions** using the following Linux shell wrappers to ensure clean background execution:
 * Level 10 (Low): `script://sh -c "python3 /duco-script/duco-set.py 10"`
 * Level 20 (Medium): `script://sh -c "python3 /duco-script/duco-set.py 20"`
 * Level 30 (High): `script://sh -c "python3 /duco-script/duco-set.py 30"`
